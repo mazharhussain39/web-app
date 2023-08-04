@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+.box{
+    border: 1px solid;
+    width: auto;
+    height: 600px;
+    margin-top: 5%;
+    margin-left: auto;
+    background-image: url(./5555.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.form{
+    border-radius: 5px;
+    width: 35%;
+    height: 550px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    background-color: white;  
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+input{
+    width: 90%;
+    height: 40px;
+    margin-left: 4%;
+    margin-top: 20px;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+.male{
+    width: auto;
+    height: auto;
+    box-shadow: none;
+}
+.female{
+    width: auto;
+    height: auto; 
+    box-shadow: none;
+}
+select{
+    width: 90%;
+    height: 40px;
+    margin-left: 4%;
+    margin-top: 20px;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+}
+button{
+    width: 90%;
+    height: 45px;
+    margin-left: 4%;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(67, 75, 110);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
+}
+button:hover{
+    background-color: rgb(104, 113, 163);
+}

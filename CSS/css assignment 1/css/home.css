@@ -1,0 +1,12 @@
+img {
+    height: 300px; 
+    width: 100%;
+    }
+    .table {
+        margin: 60;
+        padding: 10px;
+    }
+    td{
+        background-color: rgba(233, 124, 60, 0.904);
+        font-size: xx-large;
+    }

@@ -1,0 +1,127 @@
+body {
+font-family: 'Arial', sans-serif;
+margin: auto;
+padding: auto;
+background-color: #f2f2f2;
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+header {
+background-color: #060af7;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+padding: 10px 0;
+}
+
+nav {
+display: flex;
+justify-content: center;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+li {
+position: relative;
+margin: 0 10px;
+}
+
+a {
+text-decoration: none;
+color: #fff;
+padding: 5px 10px;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+background: linear-gradient(to bottom, #66bb6a, #43a047); /* Green gradient background */
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a.logo {
+
+font-size: 18px;
+font-weight: bold;
+background: linear-gradient(to bottom, #4caf50, #2e7d32); /* Dark green gradient background */
+box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.267);
+}
+
+a.offer {
+background: linear-gradient(to bottom, #f5b515, #fc9c02); /* Yellow gradient background for offers */
+}
+
+a:hover {
+background: linear-gradient(to bottom, #06f512, #02ad0a); /* Darker green gradient background on hover */
+}
+
+a.active {
+background: linear-gradient(to bottom, #1b5e20, #124116); /* Darker shade of green gradient background for active link */
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #fff;
+min-width: 160px;
+padding: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+z-index: 1;
+border-radius: 5px;
+}
+
+li:hover .dropdown-content {
+display: block;
+}
+
+.dropdown-content ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.dropdown-content li {
+margin: 5px 0;
+}
+
+.dropdown-content a {
+color: #333;
+display: block;
+padding: 5px 10px;
+}
+
+.dropdown-content a:hover {
+background: #f2f2f2; /* Light gray background on hover */
+}
+main {
+    padding: 20px;
+}
+.hero-section {
+    /* background-image: url(https://gifdb.com/images/high/white-dots-on-blue-background-txkjni4df7a0meza.gif); */
+    background-size: cover;
+    background-position: center;
+    height: 30em;
+    text-align: center;
+    padding: 100px 0;
+    color: #f7f3f3;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 15px;
+    /* color: rgb(247, 243, 5); */
+    text-decoration: underline;
+}
+footer {
+    margin-top: 100px;
+    background-color: #06f512;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
