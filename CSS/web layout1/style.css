@@ -1,0 +1,96 @@
+.logo {
+    border: 1px solid black;
+width: 30%;
+height: 80px;
+float: left;
+
+}
+
+.banner {
+    border: 1px solid black;
+width: 69.68%;
+height: 80px;
+float: right;
+}
+
+.bar {
+    border: 1px solid black;
+width: 100%;
+height: 80px;
+clear: both;
+margin-bottom: 20px;
+
+}
+
+.left {
+    border: 1px solid black;
+    width: 29%;
+    height: 400px;
+    float: left;
+    margin-bottom: 20px;
+   
+
+}
+.box{
+border: 1px solid black;
+width: 41.5%;
+height: 400px;
+float: left;
+margin-bottom: 20px;
+
+
+}
+
+
+.center {
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    float: left;
+
+
+}
+
+.right{
+    border: 1px solid black;
+    width: 29%;
+    height: 400px;
+    float:right;
+    margin-bottom: 20px;
+
+}
+
+.left-block{
+    border: 1px solid black;
+    width: 49.6%;
+    height: 150px;
+    float: left;
+ 
+
+}
+.right-block{
+    border: 1px solid black;
+    width: 49.64%;
+    height: 150px;
+    float:right;
+
+}
+
+.module {
+    border: 1px solid black;
+    width: 100%;
+    height: 146px;
+    clear: both;
+
+
+}
+
+
+ .footer {
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+    clear: both;
+margin-top: 20px;
+
+} 
